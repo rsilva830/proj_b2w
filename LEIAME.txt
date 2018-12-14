@@ -1,0 +1,17 @@
+﻿Para testar/utilizar o projeto é necessário:
+
+1. Criar a base de dados em um servidor mysql (script esta no diretorio utilitarios)
+
+3. Configurar o arquivo [APIREST/src/pacote/servidor/AcessoBD.java] com os dados do banco para o projeto funcionar.
+
+4. Fazer o Deploy dos arquivos no servidor ou gerar o .war e carregar no servidor. (criar o diretorio APIREST no servidor)
+
+4. Executar o projeto no browser ex: http://localhost/8080/APIREST
+
+Obs:
+- O banco de dados esta vazio, sera necessario realizar alguns cadastros para testar o sistema
+- Este projeto foi feito com Editor Eclipse Version: 2018-09 (4.9.0)
+- Todas as bibliotecas utilizadas no projeto estao no diretorio APIREST\WebContent\WEB-INF\lib
+- Este projeto faz consultas via GET para API publica do StarWars https://swapi.co/
+
+ 
